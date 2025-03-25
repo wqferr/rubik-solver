@@ -1,0 +1,10 @@
+{
+    "runOnSave.commands": [
+        {
+            // Match any python files by path.
+            "match": ".*\\.coffee$",
+            "command": "npx coffee -c ${file}",
+            "runIn": "terminal"
+        }
+    ]
+}
